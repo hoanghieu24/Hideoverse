@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Web Nghe Nhạc 2026</title>
+  <link rel="stylesheet" href="testCss.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">MusicPro</div>
+    <nav>
+      <ul>
+        <li><a href="#">Trang Chủ</a></li>
+        <li><a href="#">Playlists</a></li>
+        <li><a href="#">Albums</a></li>
+        <li><a href="#">Ca Sĩ</a></li>
+        <li><a href="#">Tìm Kiếm</a></li>
+      </ul>
+    </nav>
+    <div class="account">
+      <a href="#">Đăng Nhập</a>
+      <a href="#">Đăng Ký</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Chào Mừng Bạn đến với MusicPro</h1>
+      <p>Khám phá âm nhạc mới mỗi ngày</p>
+      <a href="#" class="btn">Nghe Ngay</a>
+    </div>
+  </section>
+
+  <!-- Playlist Section -->
+  <section class="playlists">
+    <h2>Playlist Nổi Bật</h2>
+    <div class="playlist-items">
+      <div class="playlist-item">
+        <img src="playlist1.jpg" alt="Playlist 1">
+        <h3>Playlist s1</h3>
+        <a href="#" class="btn">Nghe ngay</a>
+      </div>
+      <div class="playlist-item">
+        <img src="playlist2.jpg" alt="Playlist 2">
+        <h3>Playlist 2</h3>
+        <a href="#" class="btn">Nghe ngay</a>
+      </div>
+      <!-- Thêm các playlist khác -->
+    </div>
+  </section>
+
+  <!-- Music Player -->
+  <section class="music-player">
+    <div class="player-controls">
+      <button class="prev">⏮</button>
+      <button class="play">▶</button>
+      <button class="next">⏭</button>
+    </div>
+    <input type="range" class="volume" min="0" max="100" value="50">
+    
+    <!-- Thẻ audio để phát nhạc -->
+    <audio controls>
+        <source src="src/test/src/test/y2mate.com - Giờ Thì  buitruonglinh.mp3" type="audio/mp3">
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+      </audio>
+      
+      
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 MusicPro. Tất cả quyền sở hữu.</p>
+      <div class="social-media">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="test.js"></script>
+</body>
+</html>
