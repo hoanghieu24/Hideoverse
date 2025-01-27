@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'; // Dùng createRouter và createWebHistory cho Vue 3
 import Home from '../components/Home.vue';
-import MusicAdminPanel from '../components/MusicAdminPanel.vue';
+// import MusicAdminPanel from '../components/MusicAdminPanel.vue';
 import MusicAdd from '../components/MusicAdd.vue';
+import PageAdmin from '@/components/PageAdmin.vue';
 
 
 const routes = [
@@ -13,7 +14,7 @@ const routes = [
   {
     path: '/admin',
     name: 'MusicAdminPanel',
-    component: MusicAdminPanel
+    component: PageAdmin
   },
   {
     path: '/admin/addMusic',
